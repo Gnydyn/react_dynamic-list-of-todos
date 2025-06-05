@@ -1,7 +1,7 @@
 import React from 'react';
 
 type Props = {
-  activeFilter: string;
+  activeFilter: 'all' | 'active' | 'completed';
   onFilterChange: (value: 'all' | 'active' | 'completed') => void;
   activeSearch: string;
   onSearchChange: (value: string) => void;
